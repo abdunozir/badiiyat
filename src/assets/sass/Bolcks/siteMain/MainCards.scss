@@ -1,0 +1,37 @@
+.MainCard-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.object__img {
+  width: 173px;
+  height: 132px;
+  img {
+    border-radius: 25px 25px 0px 0px;
+    width: 100%;
+    height: 100%;
+  }
+}
+.each__object {
+  border-radius: 25px;
+  width: 173px;
+  height: 236px;
+  background-color: rgb(94, 93, 93);
+}
+.object__diflex {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.object__counts {
+  font-size: 20px;
+  color: #fff;
+}
+.object__years {
+  color: #fff;
+}

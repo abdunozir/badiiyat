@@ -1,0 +1,39 @@
+nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 83px;
+}
+
+.nav__logo {
+  font-family: "Rotterburg Stylish FREE";
+  color: #c9ac8c;
+  font-size: 25px;
+  line-height: 144.4%;
+}
+
+.nav__ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 43px;
+  list-style-type: none;
+  li a {
+    font-family: "HelveticaNeueCyr";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 144.4%;
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+.nav__right {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

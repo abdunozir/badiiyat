@@ -1,0 +1,66 @@
+.HeaderBody__slider-container {
+  max-width: 1200px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.HeaderBody__slider-wrapper {
+  position: relative;
+}
+.HeaderBody-slider-wrapper__con {
+  z-index: 1;
+  //   width: 400px;
+  //   height: 20px;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  .HeaderBody-slider-wrapper__con-btn {
+    width: 57.39px;
+    height: 4px;
+    margin-left: 11px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 3px;
+    background-color: #fff;
+  }
+}
+
+.slider-container__slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4800px;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.slider-container-slide__image {
+  width: 1200px;
+  height: 100%;
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.slider-container-slide-image__title {
+  top: 3%;
+  left: 100px;
+  width: 330px;
+  background-color: transparent;
+  font-family: "Rotterburg Stylish FREE";
+  color: #c9ac8c;
+  font-size: 61px;
+  line-height: 67px;
+  position: absolute;
+}
