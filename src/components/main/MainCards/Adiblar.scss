@@ -1,0 +1,153 @@
+.adiblar-Info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.adiblar-info__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+}
+
+.adiblar-info__adib-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  .adib-img {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 0px 50px 50px 0px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  h1 {
+    font-family: "Rotterburg Stylish FREE";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 144.4%;
+    color: #c9ac8c;
+  }
+  p {
+    font-family: "Visuelt Pro";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 144.4%;
+    /* or 17px */
+    margin: 0;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.adiblar-info__info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  .adib-Ijodi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 40px;
+    .marked {
+      display: flex;
+      align-items: flex-start;
+      font-size: 20px;
+      h1 {
+        font-family: "Rotterburg Stylish FREE";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        text-align: center;
+      }
+    }
+  }
+  h1 {
+    font-family: "Rotterburg Stylish FREE";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: #c9ac8c;
+  }
+  p {
+    font-family: "Steinbeck";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 144.4%;
+    /* or 23px */
+
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.adiblar-info__asarlari {
+  width: 700px;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 20px;
+}
+.adiblar-info__asarlari::-webkit-scrollbar {
+  border-radius: 1px;
+  color: red;
+}
+
+.each__object1 {
+  width: 18rem;
+  height: 236.74px;
+  background: linear-gradient(209.09deg, #191919 -1.68%, #212121 135.36%);
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+    0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+    0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+    0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+    0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+    0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.object__img {
+  width: 100%;
+  height: 50%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.object__name {
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.object__counts {
+  // width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
