@@ -2,23 +2,32 @@ import { useEffect, useState } from "react";
 import MainCard from "./MainCards/MainCards";
 import MainFilter from "./MainFilter/MainFilter";
 import books from "../../Books";
+import HeaderSearch from "./MainCards/SearchInput/HeaderSearch";
 import HeaderBody from "../header/headerBody/HeaderBody";
+import Navbar from "../header/navbar/Navbar";
 
 function Main() {
-  const [obj, setObj] = useState(books);
+  let [obj, setObj] = useState(books);
   let [newObj, setNewObj] = useState([]);
-  let [filtered, setFiltered] = useState([]);
+  let [filterIds, setFilterIds] = useState([
+    "Barcha yozuvchilar",
+    "Diniy",
+    "Bizness",
+    "Jahon",
+  ]);
   useEffect(() => {
     setNewObj([...obj]);
-  }, []);
+  }, [obj]);
   return (
     <>
+      <Navbar />
       <HeaderBody />
+      <HeaderSearch />
       <MainFilter
-        filtered={filtered}
-        setFiltered={setFiltered}
         obj={obj}
-        setNewObj={setNewObj}
+        setObj={setObj}
+        books={books}
+        filterIds={filterIds}
       />
       <MainCard newObj={newObj} setNewObj={setNewObj} />
     </>

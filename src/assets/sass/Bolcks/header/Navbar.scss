@@ -1,5 +1,6 @@
 nav {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
 }
 .nav__container {
   display: flex;
@@ -36,4 +37,11 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.PaperList {
+  position: absolute;
+  right: 5%;
+  top: 110%;
+  z-index: 1;
 }

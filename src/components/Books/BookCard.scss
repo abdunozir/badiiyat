@@ -1,0 +1,19 @@
+.each__object-book {
+  width: 14rem;
+  height: 23rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.object-book__img {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  border-radius: 10px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -8,7 +8,7 @@ function NavbarLists() {
           <Link to="/">Bosh sahifa</Link>
         </li>
         <li>
-          <Link to="/Nasr">Nasr</Link>
+          <Link to="/Books">Books</Link>
         </li>
         <li>
           <Link to="/Nazm">Nazm</Link>
