@@ -52,7 +52,7 @@ function Navbar() {
                   <Link to="/user/settings">
                     <MenuItem>Settings</MenuItem>
                   </Link>
-                  <MenuItem>Log in</MenuItem>
+                  <MenuItem>Favourite</MenuItem>
                   <Link to={"/user/signup"}>
                     {" "}
                     <MenuItem>Sign up</MenuItem>
@@ -67,7 +67,7 @@ function Navbar() {
         </div>
         <Sitebar isopen={isopen} isopened={isopened} />
         <div className="madia-nav">
-          <Box sx={{ flexGrow: 3 }}>
+          <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static" sx={manuallyStyle}>
               <Toolbar>
                 <IconButton

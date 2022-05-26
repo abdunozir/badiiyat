@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   margin: 10px;
-
   h1 {
     margin-bottom: 20px;
   }
@@ -25,6 +24,26 @@
   justify-content: center;
   gap: 100px;
 }
+
+@media (max-width: 1000px) {
+  .Main-filter {
+    margin: 0;
+  }
+  .Main-filter ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 0px;
+  }
+  .Main-filter__title {
+    font-size: 25px;
+  }
+  .Main-filter ul li {
+    font-size: 8px;
+  }
+}
+
 .Main-filter ul li {
   font-family: "Steinbeck";
   font-style: normal;
