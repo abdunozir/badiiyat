@@ -143,10 +143,7 @@ function Adabiyotlar({ adib, javon, setJavon }) {
                               <p>{el.electron}</p>
                             </li>
                           </ul>
-                          <button
-                            onClick={() => addBook(el)}
-                            id={`${el1.id}#${el.bookId}`}
-                          >
+                          <button onClick={() => addBook(el)}>
                             Javonga qo’shish
                           </button>
                         </div>

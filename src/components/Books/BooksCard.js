@@ -5,7 +5,6 @@ function BooksCard({ el, filterText }) {
     <>
       {el.bookObj.map((book) => {
         if (book.bookGenre === filterText || filterText === "barchasi") {
-          console.log(book);
           return (
             <Link
               to={`/Adiblar/adib/asar/${book.bookId}#${el.id}`}

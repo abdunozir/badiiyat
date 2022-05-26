@@ -6,7 +6,24 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 83px;
+  padding: 10px 83px;
+}
+.madia-nav {
+  width: 100%;
+  display: none;
+}
+@media (max-width: 1200px) {
+  .nav__container {
+    .nav__right {
+      display: none;
+    }
+  }
+  .nav__logo {
+    display: none;
+  }
+  .madia-nav {
+    display: block;
+  }
 }
 
 .nav__logo {
@@ -14,6 +31,14 @@ nav {
   color: #c9ac8c;
   font-size: 25px;
   line-height: 144.4%;
+  margin: 0;
+}
+.nav__logo1 {
+  font-family: "Rotterburg Stylish FREE";
+  color: #c9ac8c;
+  font-size: 25px;
+  line-height: 144.4%;
+  margin: 0;
 }
 
 .nav__ul {
